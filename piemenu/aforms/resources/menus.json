@@ -1,0 +1,68 @@
+{
+    "forms":
+    [
+        {
+            /*
+            Multiline comment
+            */
+            "label": "mesh_func",
+            "type": "form",
+            "style": "context",
+            "description": "form description",
+            "icon_mode": "icon_mode",
+            "icon_size": "icon size",
+            "items":
+            // Comment
+            [
+                "duplicate options",
+                "extract",
+                "collapse",
+                "anim_functions"
+            ]
+        },
+        {
+            "label": "anim_functions",
+            "type": "form",
+            "style": "pie",
+            "description": "form description",
+            "icon_mode": "icon_mode",
+            "icon_size": "icon size",
+            "items":
+            [
+                "duplicate options",
+                "extract",
+                "collapse"
+            ]
+        }
+    ],
+    "commands":
+    [
+        {
+            "label": "duplicate options",
+            "type": "command",
+            "style": "pushbutton",
+            "description": "This is a description",
+            "command": "exec(code block)",
+            "sub_command": "command for toggle check and stuff.",
+            "icon": ":/icon_name"
+        },
+        {
+            "label": "collapse",
+            "type": "command",
+            "style": "togglebutton",
+            "description": "This is a description",
+            "command": "exec(code block)",
+            "sub_command": "command for toggle check and stuff.",
+            "icon": ":/icon_name"
+        },
+        {
+            "label": "extract",
+            "type": "command",
+            "style": "slidebutton",
+            "description": "This is a description",
+            "command": "exec(code block)",
+            "sub_command": "command for toggle check and stuff.",
+            "icon": ":/icon_name"
+        }
+    ]
+}

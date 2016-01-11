@@ -1,0 +1,73 @@
+QDialog {
+    background-color: #262d37;
+}
+
+QTreeView {
+   font-family: 'Tahoma';
+   font-size: 8;
+   color: #f48c22;
+   background-color: #262d37;
+   /*alternate-background-color: @base;*/
+   show-decoration-selected: 1;
+   outline: none;
+   border: none;
+}
+
+ QTreeView::item {
+     border: 2px solid #f48c22;
+     border-top-color: transparent;
+     border-bottom-color: transparent;
+     border-left-color: transparent;
+     border-right-color: transparent;
+ }
+
+/* QTreeView::item:hover {
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #e7effd, stop: 1 #cbdaf1);
+     border: 1px solid #bfcde4;
+ }*/
+/*
+ QTreeView::item:selected {
+     border: none;
+ }
+*/
+ QTreeView::item:selected:active{
+    background: #1f2630;
+    color: #f48c22;
+     /*background: qlineargradient(x0.5: 0, y0.5: 0, x1: 0, y1: 1, stop: 0 #f48c22, stop: 1 #f48c22);*/
+ }
+
+ QTreeView::item:selected:!active {
+     background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #6b9be8, stop: 1 #577fbf);
+ }
+
+/*  QTreeView::branch {
+         background: palette(base);
+ }
+
+ QTreeView::branch:has-siblings:!adjoins-item {
+         background: cyan;
+ }
+
+ QTreeView::branch:has-siblings:adjoins-item {
+         background: red;
+ }
+
+ QTreeView::branch:!has-children:!has-siblings:adjoins-item {
+         background: blue;
+ }
+
+ QTreeView::branch:closed:has-children:has-siblings {
+         background: pink;
+ }
+
+ QTreeView::branch:has-children:!has-siblings:closed {
+         background: gray;
+ }
+
+ QTreeView::branch:open:has-children:has-siblings {
+         background: magenta;
+ }
+
+ QTreeView::branch:open:has-children:!has-siblings {
+         background: green;
+ }*/

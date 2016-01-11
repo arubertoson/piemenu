@@ -1,0 +1,26 @@
+{
+
+    "main":
+    {
+        "font_family": "DejaVu Sans Mono",
+        "font_size": 10
+    },
+    "editor":
+    {
+        "font_family": "Source Code Pro",
+        "font_size": 9,
+        "line_numbers": false,
+        "margin": 4,
+        "tab_size": 4,
+        "auto_indent": true,
+        "highlight_line": true,
+        "show_whitespace": true,
+        "ident_using_spaces": true,
+        "word_wrap": false
+    },
+    "shortcuts":
+    [
+        {}
+    ]
+
+}

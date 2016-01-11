@@ -1,0 +1,22 @@
+{
+    "font": "Tahoma",
+    "font_size": 8,
+
+}
+
+[Default]
+font=Tahoma
+font_size=8
+
+window=#1f2630
+
+
+# @font='Tahoma'
+# @window=#1f2630
+# @base=rgb(144, 152, 160)
+# @alternate_base=rgb(148, 156, 164)
+# @text=rgb(192, 192, 192)
+# @text_active=rgb(255, 168, 0)
+# @text_inactive=rgb(144, 152, 160)
+# @highlight=rgb(255, 168, 0)
+# @highlight_text=rgb(255, 255, 255)
